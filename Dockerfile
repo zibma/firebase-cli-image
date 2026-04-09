@@ -1,7 +1,7 @@
 FROM node:24-alpine
 
 # Install Firebase CLI globally
-RUN npm install -g firebase-tools@15.1.0
+RUN npm install -g firebase-tools@15.13.0
 
 # Set working directory
 WORKDIR /app
